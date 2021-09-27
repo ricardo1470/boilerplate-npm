@@ -2,6 +2,13 @@
 	"author": "Ricardo Camayo",
 	"description": "freecodecamp backend path: Nodejs",
 	"name": "fcc-learn-npm-package-json",
+	"keywords": [
+		"Nodejs",
+		"EJS",
+		"MongoDB",
+		"Express",
+		"Morgan"
+	],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
