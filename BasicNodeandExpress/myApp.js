@@ -33,7 +33,7 @@ app.get('/json', (req, res) => {
     res.json(jsonMessage)
 });
 
-app.get('/now', (req, res, next) => {
+app.get('/now', (req, res, next )=> {
     req.time = getTime();
     next();
 }, (req, res) => {
